@@ -350,7 +350,8 @@ for(i in 1:model_params$iter) {
       #---------------------------------------------------------------------
       # Use a spline to smooth the allele frequency and fold change data
       # Scale the number of knots used to the size of the chromosome
-      iterative_fit$cknots <- pmax(20, round(sum(f$CHROM==chr)/model_params$smooth)) 
+     # iterative_fit$cknots <- pmax(20, round(sum(f$CHROM==chr)/model_params$smooth)) 
+      iterative_fit$cknots <- pmax(10, round(sum(f$CHROM==chr)/model_params$smooth)) # Reduced for targeted panel samples 
       
       # Initialize a data frame that will be used as the input to the main function "getCpts"
       preds <- data.frame(Beg=ids$Beg[ ids$Chr==chr], 
