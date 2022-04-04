@@ -1,0 +1,22 @@
+{
+  "CNVSomaticPanelWorkflow.gatk_docker": "broadinstitute/gatk:4.1.3.0",
+  "CNVSomaticPanelWorkflow.intervals": "refs/RMH200Solid.v1.3.no.tx.cytobands.no.Y.bed",
+  "CNVSomaticPanelWorkflow.normal_bais": [
+   "/normals/F001-T.sort.bai",
+   "/normals/F002-T.sort.bai",
+   "/normals/F005-T.sort.bai",
+   "/normals/F007-T.sort.bai",
+   "/normals/F008-T.sort.bai"],
+  "CNVSomaticPanelWorkflow.normal_bams": [
+   "/normals/F001-T.sort.bam",
+   "normals/F002-T.sort.bam",
+   "/normals/F005-T.sort.bam",
+   "/normals/F007-T.sort.bam",
+   "/normals/F008-T.sort.bam"],
+  "CNVSomaticPanelWorkflow.pon_entity_id": "gatk_v4.1.3.0_F_PoN",
+  "CNVSomaticPanelWorkflow.ref_fasta_dict": "refs/ucsc.hg19.dict",
+  "CNVSomaticPanelWorkflow.ref_fasta_fai": "refs/ucsc.hg19.fasta.fai",
+  "CNVSomaticPanelWorkflow.ref_fasta": "efs/ucsc.hg19.fasta",
+  "CNVSomaticPairWorkflow.gatk4_jar_override":"GATK/4.1.9.0/gatk-package-4.1.9.0-local.jar"
+}
+
