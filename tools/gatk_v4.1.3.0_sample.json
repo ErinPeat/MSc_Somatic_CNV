@@ -1,0 +1,13 @@
+{
+  "CNVSomaticPairWorkflow.common_sites": "/refs/All_snps.interval_list",
+  "CNVSomaticPairWorkflow.gatk_docker": "broadinstitute/gatk:4.1.3.0",
+  "CNVSomaticPairWorkflow.intervals":  "/refs/RMH200Solid.v1.3.no.tx.cytobands.no.Y.bed",
+  "CNVSomaticPairWorkflow.read_count_pon": “/normal/gatk_v4.1.3.0_F_PoN.pon.hdf5",
+  "CNVSomaticPairWorkflow.ref_fasta_dict": "/refs/ucsc.hg19.dict",
+  "CNVSomaticPairWorkflow.ref_fasta_dict": "/refs/ucsc.hg19.dict",
+  "CNVSomaticPairWorkflow.ref_fasta_fai":  "/refs/ucsc.hg19.fasta.fai",
+  "CNVSomaticPairWorkflow.ref_fasta": "/refs/ucsc.hg19.fasta",
+  "CNVSomaticPairWorkflow.tumor_bam": /bams_tumour/2-T.sort.bam",
+  "CNVSomaticPairWorkflow.tumor_bam_idx": "bams_tumour/2-T.sort.bai",
+  "CNVSomaticPairWorkflow.gatk4_jar_override":"/GATK/4.1.9.0/gatk-package-4.1.9.0-local.jar"
+}
