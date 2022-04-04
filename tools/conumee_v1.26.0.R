@@ -37,8 +37,6 @@ print("Controls loaded")
 # Select the annotation type to use, array is EPIC ==========================
 
 anno <- CNV.create_anno(array_type = "EPIC")
-# Use overlap when mixing EPIC and 450K array data
-#anno <- CNV.create_anno(array_type = "overlap")
 
 # Line below is to remove error which flags as some EPIC probes will have no values
 anno@probes <- anno@probes[names(anno@probes) %in%
